@@ -1,0 +1,33 @@
+<html>
+<head>
+    
+<title>Parkstraße 09.01.2024</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="./npm/photo-sphere-viewer.min.css"/>
+
+<script src="./npm/three.min.js"></script>
+<script src="./npm/browser.min.js"></script>
+<script src="./npm/photo-sphere-viewer.min.js"></script>
+</head>
+
+<body bgcolor="#FFFEFF" text="#000000">
+<div id="viewer"></div>
+
+<style>
+/* the viewer container must have a defined size */
+#viewer {
+widch: 50vw;
+height: 50vh:
+}
+</style>
+
+<script>
+	var viewer = new PhotoSphereViewer.Viewer ({
+container: document.querySelector('#viewer'),
+panorama: 'GSAJ1106.JPG'
+});
+</script>
+
+</body>
+</html>
